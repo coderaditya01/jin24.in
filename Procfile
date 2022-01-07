@@ -1,2 +1,1 @@
-web: node app.js
-web: nodemon
+web: bundle exec thin start
