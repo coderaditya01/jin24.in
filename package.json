@@ -1,0 +1,32 @@
+{
+  "name": "jin24",
+  "version": "1.0.0",
+  "description": "const express = require(\"express\");",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jo",
+    "jukum",
+    "mere",
+    "aaka"
+  ],
+  "author": "aditya",
+  "license": "ISC",
+  "dependencies": {
+    "api": "^3.2.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-sitemap-xml": "^3.0.0",
+    "install": "^0.13.0",
+    "mongoose": "^5.12.13",
+    "npm": "^7.17.0",
+    "pug": "^3.0.2",
+    "stack": "^0.1.0",
+    "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/xml": "^1.0.5"
+  }
+}
