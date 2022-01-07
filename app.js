@@ -3,7 +3,7 @@ const path = require("path");
 const app = express();
 var mongoose = require('mongoose');
 const bodyparser = require("body-parser");
-const xml = require('xml');
+
 mongoose.connect('mongodb://localhost/contactjin24', {useNewUrlParser: true},{ useUnifiedTopology: true });
 const db = mongoose.connection
 db.on('error', (err)=> console.log(err))
