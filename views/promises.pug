@@ -1,0 +1,37 @@
+extends base.pug
+
+block script
+  script(src="/static/index.js")
+
+block style
+  style
+      include ../static/style.css
+      include ../static/phone.css
+      include ../static/promises.css
+block content
+    
+    section#service-container
+        <h1>Our promises</h1>
+        <h6></h6>
+
+        <h1 class="pro"><b>SATISFACTION GUARANTEE.<br>Because your satisfaction is our goal!</h1>
+        div.services0
+          div.services
+             div#box
+                 img(src="/static/img/vp.jpg")
+                 h2#h-secondary.center Verified Professionals
+                 p#center All our service providers are screened, background verified and rated by customers like you. Every service provider goes through strict rounds of skill assessment,background checks before they are on-boarded onto our platform. 
+                 
+    
+             div#box
+                 img(src="/static/img/dead.jpg")
+                 h2#h-secondary.center  Timely Work Completion
+                 p#center  We complete our works on time.There is no chance of delay except any serious problem like lockdown , govt ristriction etc.Timely Work Completion found in 90% Cases.
+                 
+    
+             div#box
+                 img(src="/static/img/sup.jpg")
+                 h2#h-secondary.center Professional Support
+                 p#center Want to get in touch with us directly to express a concern or have some queries that need immediate responses? Chat with us, write us an email or even call us to get through to our round-the-clock support team that's already ready to go that extra mile for your happiness. 
+                  
+        
