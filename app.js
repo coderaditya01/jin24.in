@@ -4,10 +4,10 @@ const app = express();
 var mongoose = require('mongoose');
 const bodyparser = require("body-parser");
 
-mongoose.connect('mongodb://localhost/contactjin24', {useNewUrlParser: true},{ useUnifiedTopology: true });
-const db = mongoose.connection
-db.on('error', (err)=> console.log(err))
-db.once('open', ()=> console.log('connected to database'))
+mongoose.connect("mongodb+srv://adityaatul:1234567Ak@@cluster0.wmvga.mongodb.net/fd_form?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+    .then(() => console.log("Successfully connected to MongoDB"))
+    .catch(err => console.log(err));
+
 const port = 8000;
 
 //DEFINE MONGOOSE SCHEMA
